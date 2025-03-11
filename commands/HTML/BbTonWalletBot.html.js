@@ -82,11 +82,11 @@ CMD*/
         <div class="bg-white bg-opacity-5 py-8 px-6 rounded-b-3xl">
           <div class="flex justify-between items-center">
             <div class="flex justify-start items-center gap-2">
-              <img src="https://chain-master.vercel.app/assets/images/account-img-3.png" alt="" />
-              <p class="text-sm">Hello, Welcome</p>
+              <img src="https://cdn-icons-png.flaticon.com/512/2202/2202112.png" id="user-photo" alt="User Photo" class="w-12 h-12 object-cover rounded-full" />
+              <p class="text-sm" id="user-greeting">Hello, Welcome</p>
             </div>
             <div class="flex justify-start items-center gap-2">
-              <a class="receiveButton flex justify-center items-center text-xl p-2 text-g300 rounded-full bg-white bg-opacity-5">
+              <a id="scanButton" class="flex justify-center items-center text-xl p-2 text-g300 rounded-full bg-white bg-opacity-5">
                 <i class="ph ph-scan"></i>
               </a>
               <a id="settingButton" class="flex justify-center items-center text-xl p-2 text-g300 rounded-full bg-white bg-opacity-5">
@@ -100,7 +100,7 @@ CMD*/
             <div class="flex justify-start items-center gap-2">
               <p class="text-[32px] font-bold text-white relative">
                 <span class="walletBalance" id="walletBalance">0.000000</span>
-                <span class="text-sm font-normal text-g300 absolute top-1 -right-8">TON</span>
+                <span class="text-sm font-normal text-g300 absolute top-1 -right-9">TON</span>
               </p>
             </div>
             <p class="text-sm text-n70"><span class="text-g300">$</span><span id="walletBalanceUSD">0.00</span> (USD)</p>
@@ -131,9 +131,9 @@ CMD*/
               <div id="noTransactions" class="flex flex-col justify-center items-center text-center py-10">
                 <img src="https://cdn-icons-png.flaticon.com/512/2748/2748558.png" alt="No Transactions" class="w-24 h-24 opacity-50" />
                 <p class="text-sm text-n70 mt-5">No transactions found</p>
-                <p class="text-sm text-white mt-3">
+                <p class="text-sm text-white mt-4">
                   Need some TON? Get free test TON from
-                  <a href="https://t.me/testgiver_ton_bot" target="_blank" class="text-g300 underline">testgiver_ton_bot</a>.
+                  <a href="https://t.me/testgiver_ton_bot" target="_blank" class="text-g300 underline">testgiver_ton_bot</a>
                 </p>
               </div>
             </div>
@@ -336,6 +336,7 @@ CMD*/
       </div>
     </div>
     
+    <!-- <script src="./assets/js/main.js"></script> -->
     <script src="https://my-cdnpro.vercel.app/assets/js/bbwallet.app.main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
   </body>
